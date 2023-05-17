@@ -43,7 +43,7 @@ public class Main {
         System.out.println("*************************\n"+
                 "Compras realizadas\n\n");
         for (Item item:lista) {
-            System.out.println(String.format(item.getNome() + " - " + item.getValor(), "%.2f"));
+            System.out.printf(item.getNome() + " - " + item.getValor() + "%n", "%.2f");
         }
         System.out.println("*************************");
     }
